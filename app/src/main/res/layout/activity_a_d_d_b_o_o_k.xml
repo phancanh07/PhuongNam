@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hihi"
+    android:orientation="vertical"
+    tools:context=".ui.ADDBOOKActivity">
+
+    <EditText
+        android:id="@+id/add_tensach"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textdk"
+        android:hint="Tên Sách"
+        android:textColorHint="#FBFDFD"></EditText>
+
+    <Spinner
+        android:id="@+id/spinner_theLoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:id="@+id/add_tacgia"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textdk"
+        android:hint="Tên Tác Gỉa"
+        android:textColorHint="#FBFDFD"></EditText>
+
+    <EditText
+        android:id="@+id/add_nhaxuatban"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textdk"
+        android:hint="Nhà Xuất Bản"
+        android:textColorHint="#FBFDFD"></EditText>
+
+    <EditText
+        android:id="@+id/add_sosach"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textdk"
+        android:hint="Số Sách"
+        android:inputType="number"
+        android:textColorHint="#FBFDFD"></EditText>
+
+    <EditText
+        android:id="@+id/add_giamua"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textdk"
+        android:hint="Gía Mua"
+        android:inputType="number"
+        android:textColorHint="#FBFDFD"></EditText>
+
+    <EditText
+        android:id="@+id/add_giaban"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textdk"
+        android:hint="Gía Mua"
+        android:inputType="number"
+        android:textColorHint="#FBFDFD"></EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/themsach"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/button"
+            android:text="Thêm Sách"></Button>
+
+        <Button
+            android:id="@+id/add_huy"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/button"
+            android:text="Hủy"></Button>
+    </LinearLayout>
+</LinearLayout>

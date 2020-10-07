@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hihi"
+    android:orientation="vertical"
+    tools:context=".ui.SignupActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:gravity="center"
+        android:text="ĐĂNG KÍ TÀI KHOẢN"
+        android:textColor="#1BF103"
+        android:textSize="30dp"></TextView>
+
+    <EditText
+        android:id="@+id/username_dk"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/textdk"
+        android:hint="USERNAME"
+        android:textColorHint="#FBFDFD"></EditText>
+
+    <EditText
+        android:id="@+id/phonenumber_dk"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textdk"
+        android:hint="PHONENUMBER"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="#FBFDFD"></EditText>
+
+    <EditText
+        android:id="@+id/Email_dk"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textdk"
+        android:hint="Email"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="#FBFDFD"></EditText>
+
+    <EditText
+        android:id="@+id/password_dk"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textdk"
+        android:hint="Nhập Password"
+        android:textColorHint="#FBFDFD"></EditText>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_dangkitk"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="ĐĂNG KÍ TÀI KHOẢN"></Button>
+</LinearLayout>

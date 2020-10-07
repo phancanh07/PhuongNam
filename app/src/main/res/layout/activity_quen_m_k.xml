@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.QuenMKActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/bungee_shade"
+        android:gravity="center"
+        android:text="QUÊN MẬT KHẨU"
+        android:textSize="30dp"
+        android:textStyle="bold"></TextView>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/sdt"
+        android:background="@drawable/text"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:hint="Nhập Số Điện Thoại Hoặc Email"></EditText>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_quenmk"
+        android:text="ĐĂNG KÍ "
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:background="@drawable/button"
+        android:layout_gravity="center"></Button>
+
+</LinearLayout>

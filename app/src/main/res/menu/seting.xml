@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_thongke"
+            android:icon="@drawable/tron"
+            android:title="THỐNG KÊ" />
+        <item
+            android:id="@+id/nav_addbook"
+            android:icon="@drawable/tron"
+            android:title="ADDBOOK" />
+        <item
+            android:id="@+id/nav_quanlisach"
+            android:icon="@drawable/tron"
+            android:title="QUẢN LÍ SÁCH" />
+        <item
+            android:id="@+id/nav_quantaikhoan"
+            android:icon="@drawable/tron"
+            android:title="QUẢN LÍ TÀI KHOẢN" />
+        <item
+            android:id="@+id/nav_dangxuat"
+            android:icon="@drawable/tron"
+            android:title="Đăng Xuất" />
+    </group>
+</menu>
